@@ -1,26 +1,23 @@
 /* Nav Bar CSS */
 
-
+h1 {
+text-align:center;    
+   
+}
+p{
+    text-align: center;
+}
+ body {
+      position: relative; 
+  }
 /* Header CSS */
-
-
 
 /* Section CSS */
 
-
-
 /* About Section CSS */
-
-
 
 /* Portfolio Item CSS */
 
-
-
 /* Footer CSS */
 
-
-
 /* Button CSS */
-
-
