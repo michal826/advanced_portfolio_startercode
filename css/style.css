@@ -1,5 +1,7 @@
 /* Nav Bar CSS */
-
+#profile{
+    border-radius:50%;
+}
 h1 {
 text-align:center;    
    
@@ -9,6 +11,7 @@ p{
 }
  body {
       position: relative; 
+      background-color:#51A629;
   }
 /* Header CSS */
 
