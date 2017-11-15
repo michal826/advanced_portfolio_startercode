@@ -13,7 +13,17 @@ p{
       position: relative; 
       background-color:#51A629;
   }
+img {
+    height:100px;
+    
+}
+.body {
+  position: relative;
+}
+.modal-title{
+ text-align: center;   
 
+}
 /* Header CSS */
 
 /* Section CSS */
