@@ -16,13 +16,19 @@ p{
 img {
     height:100px;
     
+    
 }
 .body {
   position: relative;
+ 
 }
 .modal-title{
  text-align: center;   
 
+}
+#profile {
+ margin-top: 70px;   
+}
 }
 /* Header CSS */
 

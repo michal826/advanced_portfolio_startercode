@@ -26,112 +26,125 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target="#navbarNav">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <!-- NavBar -->
- 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Michal Idzik</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Michal Idzik</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#Portfolio">Portfolio<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#About">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Contact">Contact Information</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-           
-    <!-- Header -->
-<div class="container">
-        <div class="row">
-            <div class="col">
-                <center><img src="images/profile.jpg" id="profile" class=" mg-responsive" style="height:200px; width:200px;"></center>
-                <center><h1>Michal Idzik</h1></center>
-                <center><p>Soon to be Web-Developer, Bowler, Goalie, Pizza Lover</p></center>
-               
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Portfolio">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact Information</a>
+                </li>
+            </ul>
         </div>
-    <!-- Portfolio Grid Section -->
+    </nav>
+
+  
+ 
+ 
+  
+ 
+
+
+    
+
+    <!-- Header -->
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h1 id="Portfolio">Portfolio</h1>
+            <div class="col">
+                <center><img id="profile" src="images/profile.jpg" id="profile" class=" mg-responsive" style="height:200px; width:200px;"></center>
+                <center>
+                    <h1>Michal Idzik</h1>
+                </center>
+                <center>
+                    <p>Soon to be Web-Developer, Bowler, Goalie, Pizza Lover</p>
+                </center>
+
             </div>
-           
-            <div class="col-4">
-            <div class="card" id="card1" style="width: 20rem;">
-  <img class="card-img-top" src="http://getwallpapers.com/wallpaper/full/b/f/6/362559.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Soccer</h4>
-    <p class="card-text">My Favorite Sport Since Childhood</p>
-    <a href="http://www.espnfc.com/scores" class="btn btn-primary">Look It Up</a>
-  </div>
-</div>
-</div>
-            <div class="col-4">
-             <div class="card" id="card2" style="width: 20rem;">
-  <img class="card-img-top" src="http://wallpaper.pickywallpapers.com/1920x1080/pizza-with-olives.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Pizza </h4>
-    <p class="card-text">Love Pizza</p>
-    <a href="https://www.thrillist.com/eat/new-york/best-pizza-in-brooklyn-11-must-try-slices-and-pies" class="btn btn-primary">Look It Up</a>
-  </div>
-</div>
-</div>
-<div class="col-4">
-                <div class="card" id="card2" style="width: 20rem;">
-  <img class="card-img-top" src="https://images5.alphacoders.com/423/thumb-1920-423148.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Code </h4>
-    <p class="card-text">Love Coding</p>
-    <a href="https://www.codecademy.com" class="btn btn-primary">Look It Up</a>
-  </div>
-</div> 
-</div>
         </div>
-        <div class="row">
-        <div class="col-4">
-            <div class="card" id="card1" style="width: 20rem;">
-  <img class="card-img-top" src="http://getwallpapers.com/wallpaper/full/b/f/6/362559.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Soccer</h4>
-    <p class="card-text">My Favorite Sport Since Childhood</p>
-  </div>
-</div>
-</div>
-            <div class="col-4">
-             <div class="card" id="card2" style="width: 20rem;">
-  <img class="card-img-top" src="http://wallpaper.pickywallpapers.com/1920x1080/pizza-with-olives.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Pizza </h4>
-    <p class="card-text">Love Pizza</p>
-  </div>
-</div>
-</div>
-<div class="col-4">
-                <div class="card" id="card2" style="width: 20rem;">
-  <img class="card-img-top" src="https://images5.alphacoders.com/423/thumb-1920-423148.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Code </h4>
-    <p class="card-text">Love Coding</p>
- 
-  </div>
-</div> 
-</div>
+        <!-- Portfolio Grid Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="Portfolio">Portfolio</h1>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" id="card1" style="width: 20rem;">
+                        <img class="card-img-top" src="http://getwallpapers.com/wallpaper/full/b/f/6/362559.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Soccer</h4>
+                            <p class="card-text">My Favorite Sport Since Childhood</p>
+                            <a href="http://www.espnfc.com/scores" class="btn btn-primary">Look It Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" id="card2" style="width: 20rem;">
+                        <img class="card-img-top" src="http://wallpaper.pickywallpapers.com/1920x1080/pizza-with-olives.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Pizza </h4>
+                            <p class="card-text">Love Pizza</p>
+                            <a href="https://www.thrillist.com/eat/new-york/best-pizza-in-brooklyn-11-must-try-slices-and-pies" class="btn btn-primary">Look It Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" id="card2" style="width: 20rem;">
+                        <img class="card-img-top" src="https://images5.alphacoders.com/423/thumb-1920-423148.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Code </h4>
+                            <p class="card-text">Love Coding</p>
+                            <a href="https://www.codecademy.com" class="btn btn-primary">Look It Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" id="card1" style="width: 20rem;">
+                        <img class="card-img-top" src="http://getwallpapers.com/wallpaper/full/b/f/6/362559.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Soccer</h4>
+                            <p class="card-text">My Favorite Sport Since Childhood</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" id="card2" style="width: 20rem;">
+                        <img class="card-img-top" src="http://wallpaper.pickywallpapers.com/1920x1080/pizza-with-olives.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Pizza </h4>
+                            <p class="card-text">Love Pizza</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" id="card2" style="width: 20rem;">
+                        <img class="card-img-top" src="https://images5.alphacoders.com/423/thumb-1920-423148.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Code </h4>
+                            <p class="card-text">Love Coding</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-</div>
 
         <!-- About Section -->
         <div class="row">
@@ -139,70 +152,99 @@
                 <h1 id="About">About Me</h1>
             </div>
             <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4">
-             <p>Live in Brookyln, near Sunset Park. Originally from Poland.Love to eat Pizza and Spaghetti, Love to Bowl and Play Soccer once in a while. Excited to have won the hackathon in My Sophmore year in the Google Building in Manhattan. Want to pursue Front End Developing in the years to come. </p>
-            </div>
-            <div class="col-4"></div>
+                
+                <div class="col-12">
+                    <p>I'm 17 years old currently Live in Brookyln, near Sunset Park. Originally from <a href="https://en.wikipedia.org/wiki/Poland">Poland</a>. Where I learned to love and admrie the farm life as it;s fsr more different from the City Life. I Love to eat Pizza and Spaghetti always beg my mom to cook it hers ar always the best, Used to play for the Bowling Team and would play for the local soccer team as a Goalkeeper. I took part and won the ScriptEd Hackathon where I had to make a website and then present it to the kids I'm going against all in My Sophmore year in the Google Building in Manhattan. Want
+                        to pursue Front End Developing in the years to come. Though also plan to become a Computer Engineer. </p>
+                </div>
+            
             </div>
         </div>
     </div>
     <!-- Contact Section -->
-<div class="container">
-    <div class="row">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="Contact">Contact Information</h1>
+            </div>
+        </div>
         <div class="col-12">
-    <h1 id="Contact">Contact Information</h1>
-    </div>
-    </div>
-    <div class="col-12">
-    <p>Don't Hesitate to Follow Me:</p>
-    </div>
+            <p>Don't Hesitate to Follow Me:</p>
+        </div>
 
 
-<!-- Modal -->
-<div class="row">
-    <div class="col-4">
-<img src="https://tctechcrunch2011.files.wordpress.com/2016/03/2-snapcode-to-special-discover-channel.png?w=320&h=320" data-toggle="modal" data-target="#exampleModal">
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <!-- Modal -->
+        <div class="row">
+            <div class="col-4">
+                <img src="https://tctechcrunch2011.files.wordpress.com/2016/03/2-snapcode-to-special-discover-channel.png?w=320&h=320" data-toggle="modal" data-target="#exampleModal">
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
-      <div class="modal-body">
-        <center><p>Just Scan The Picture </p></center>
-        <center><img src="images/Snapchat.jpg" class=" mg-responsive" style="height:200px; width:200px;"></center>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
+                            </div>
+                            <div class="modal-body">
+                                <center>
+                                    <p>Just Scan The Picture </p>
+                                </center>
+                                <center><img src="images/Snapchat.jpg" class=" mg-responsive" style="height:200px; width:200px;"></center>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-4">
+            <img src="https://www.facebook.com/images/fb_icon_325x325.png" data-toggle="modal" data-target="#myModal">
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <center>
+                                    <p>Scan the QR Code</p>
+                                </center>
+                                <center><img src="images/facebook.jpg" class=" mg-responsive" style="height:200px; width:200px;"></center>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <div class="col-4">
+            <a href="https://github.com/michal826"><img src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png"></a>
+        </div> 
+        </div>        
+        
+        
 
 
 
 
 
 
+    <!-- Footer -->
 
 
-</div>
-            <!-- Footer -->
+    <!-- Jquery Script -->
 
 
-            <!-- Jquery Script -->
+    <!--Bootstrap Javascript -->
 
 
-            <!--Bootstrap Javascript -->
-
-
-            <!-- Your Javascript -->
+    <!-- Your Javascript -->
 
 </body>
 
