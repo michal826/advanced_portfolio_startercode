@@ -1,6 +1,17 @@
 /* Nav Bar CSS */
+.container-fluid {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      width:400px;
+  }
+  .bg-1 { 
+     
+      background-color: #008FFF; 
+      color: #ffffff;
+  }
 #profile{
     border-radius:50%;
+    
 }
 h1 {
 text-align:center;    
@@ -29,15 +40,10 @@ img {
 #profile {
  margin-top: 70px;   
 }
+.contacts {
+    border-radius:50%
 }
-/* Header CSS */
-
-/* Section CSS */
-
-/* About Section CSS */
-
-/* Portfolio Item CSS */
-
-/* Footer CSS */
-
-/* Button CSS */
+img.card-img-top {
+    height: 350px;
+ 
+}
